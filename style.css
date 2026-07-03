@@ -21,7 +21,7 @@ body{
 header{
     background: hwb(245 14% 76%);
     color: #dcd9cf;
-    padding: 35px 24px;
+    padding: 35px 20px;
     text-align: center;
     border-bottom: 1px solid #dcd9cf;
     width: 260px;
@@ -108,23 +108,24 @@ section p{
         font-size: 14px;
         font-weight: bold;
     }
-#projetos article{
+#experiencia article, #projetos article{
         background: white;
         border: 1px solid #dcd9cf;
         border-radius: 8px;
         padding: 20px;
         margin-top: 16px;
     }
- #projetos article h3{
+#experiencia article h3, #projetos article h3{
     color: #34405c;
     margin-top: 0;
  }
-  #projetos article p:last-child{
+ #experiencia article p:last-child, #projetos article p:last-child{
     font-size: 13px;
-    color: #8c7a4e;
+    color: #34405c;
     font-weight: bold;
     margin-top: 8px;
     margin-bottom: 0;
+    
   }
   #projetos .projects-wrapper{
     display: grid;
