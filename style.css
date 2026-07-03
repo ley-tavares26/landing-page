@@ -32,10 +32,11 @@ header{
     overflow: auto;
 }
 header img{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
+    border: 3px solid rgba(255,255,255,0.15);
     
 }
 header h1{
